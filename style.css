@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h3{
+    text-transform: uppercase;
+}
+.login-area{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+}
+.transection-area{
+    display: none;
+}
+.row{
+    margin-top: 100px;
+}
+.deposit{
+ background-color: slateblue;
+
+}
+.withdraw{
+  background-color: lightsalmon;
+  
+  
+}
+.balance{
+  background-color: orange;
+  margin-right: 20px;
+ 
+}
+.mcol{
+    margin-left: 20px;
+    padding: 30px 80px;
+    border-radius:5px;
+    color: white;
+}
+@media only screen and (max-width:600px){
+    .row{
+        flex-direction: column;
+
+    }
+    .mcol{
+        margin: 30px 50px;
+    }
+    
+}
+
